@@ -1,0 +1,34 @@
+body {
+    background-image: url("img/espacio7.png");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.player {
+    background-image: url("img/avion1.png");
+    width: 160px;
+    height: 162px;
+    position: absolute;  
+}
+.enemy {
+    background-image: url("img/enemy.png");
+    width: 73px;
+    height: 75px;
+    position: absolute;
+}
+
+.newenemies {
+    background-image: url("img/enemy2.png");
+    width: 97px;
+    height: 95px;
+    position: absolute;
+}
+
+
+.missile {
+    position: absolute;
+    background-color: rgb(255, 145, 0);
+    width: 2px;
+    height: 10px;
+}
